@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Privacy Policy for GPS Area Calculator by Integrated Geo-Informatics Solutions Pvt Ltd. Learn how location data, field measurements, and backups are handled.">
+
+    <meta name="theme-color" content="#1A73E8">
+
+    <title>Privacy Policy | GPS Area Calculator</title>
+
+    <style>
+        :root {
+            --primary: #1A73E8;
+            --primary-dark: #1557B0;
+            --text: #202124;
+            --muted: #5F6368;
+            --background: #F8F9FA;
+            --card: #FFFFFF;
+            --border: #DADCE0;
+            --highlight: #E8F0FE;
+            --table-header: #F1F3F4;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text);
+            background: var(--background);
+            overflow-wrap: anywhere;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:focus-visible {
+            outline: 2px solid var(--primary);
+            outline-offset: 3px;
+        }
+
+        .header {
+            padding: 52px 20px;
+            color: #FFFFFF;
+            text-align: center;
+            background: linear-gradient(
+                135deg,
+                var(--primary),
+                var(--primary-dark)
+            );
+        }
+
+        .header h1 {
+            margin: 0 0 8px;
+            font-size: clamp(2rem, 5vw, 2.7rem);
+            line-height: 1.2;
+            font-weight: 700;
+        }
+
+        .header p {
+            margin: 0;
+            font-size: 1.05rem;
+            opacity: 0.95;
+        }
+
+        .header .subtitle {
+            margin-top: 10px;
+            font-size: 0.95rem;
+        }
+
+        .container {
+            width: min(100% - 32px, 900px);
+            margin: 32px auto;
+        }
+
+        .card {
+            padding: 32px;
+            margin-bottom: 24px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(60, 64, 67, 0.06);
+        }
+
+        .policy-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 24px;
+            margin-bottom: 22px;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .summary {
+            padding: 18px 20px;
+            margin: 22px 0;
+            background: var(--highlight);
+            border-left: 4px solid var(--primary);
+            border-radius: 6px;
+        }
+
+        .summary strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #174EA6;
+        }
+
+        .summary p {
+            margin: 0;
+        }
+
+        h2 {
+            margin: 34px 0 12px;
+            padding-bottom: 9px;
+            color: var(--primary-dark);
+            border-bottom: 1px solid #E8EAED;
+            font-size: 1.4rem;
+            line-height: 1.4;
+        }
+
+        h2:first-of-type {
+            margin-top: 28px;
+        }
+
+        h3 {
+            margin: 22px 0 8px;
+            font-size: 1.08rem;
+            line-height: 1.5;
+        }
+
+        p {
+            margin: 10px 0 14px;
+        }
+
+        ul {
+            padding-left: 24px;
+            margin: 10px 0 18px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            padding-left: 2px;
+        }
+
+        code {
+            padding: 2px 5px;
+            color: #174EA6;
+            background: #F1F3F4;
+            border-radius: 4px;
+            font-size: 0.88em;
+            overflow-wrap: anywhere;
+        }
+
+        .table-wrapper {
+            width: 100%;
+            margin: 18px 0 24px;
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            min-width: 580px;
+            border-collapse: collapse;
+            font-size: 0.92rem;
+        }
+
+        th,
+        td {
+            padding: 13px 14px;
+            text-align: left;
+            vertical-align: top;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            color: var(--text);
+            background: var(--table-header);
+            font-weight: 650;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        tbody tr:hover {
+            background: #FAFBFC;
+        }
+
+        .contact-card {
+            padding: 20px;
+            margin-top: 16px;
+            background: #F8F9FA;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+
+        .contact-card p {
+            margin: 7px 0;
+        }
+
+        .footer {
+            padding: 28px 16px;
+            color: var(--muted);
+            text-align: center;
+            font-size: 0.88rem;
+            background: #FFFFFF;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                padding: 36px 18px;
+            }
+
+            .container {
+                width: calc(100% - 20px);
+                margin: 18px auto;
+            }
+
+            .card {
+                padding: 20px 16px;
+                margin-bottom: 16px;
+                border-radius: 10px;
+            }
+
+            h2 {
+                font-size: 1.23rem;
+                margin-top: 28px;
+            }
+
+            h3 {
+                font-size: 1rem;
+            }
+
+            .policy-meta {
+                flex-direction: column;
+                gap: 4px;
+            }
+        }
+
+        @media print {
+            body {
+                background: #FFFFFF;
+            }
+
+            .header {
+                color: #000000;
+                background: #FFFFFF;
+                border-bottom: 2px solid var(--primary);
+            }
+
+            .header p {
+                opacity: 1;
+            }
+
+            .container {
+                width: 100%;
+                margin: 0;
+            }
+
+            .card {
+                padding: 12px 0;
+                box-shadow: none;
+                border: none;
+            }
+
+            a {
+                color: #000000;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Privacy Policy</h1>
+        <p>GPS Area Calculator</p>
+        <p class="subtitle">
+            By Integrated Geo-Informatics Solutions Pvt Ltd
+        </p>
+    </header>
+
+    <main class="container">
+
+        <article class="card">
+
+            <div class="policy-meta">
+                <span><strong>Effective Date:</strong> October 16, 2026</span>
+                <span><strong>Last Updated:</strong> October 16, 2026</span>
+            </div>
+
+            <p>
+                Integrated Geo-Informatics Solutions Pvt Ltd
+                ("we", "us", or "our") provides the
+                <strong>GPS Area Calculator</strong> Android application
+                (the "App"). The App is designed to help surveyors, farmers,
+                civil engineers, real estate agents, landowners, and other
+                users mark land boundaries and calculate plot areas and
+                perimeters using GPS coordinates.
+            </p>
+
+            <p>
+                This Privacy Policy explains what information is processed
+                by the App, how it is used and stored, which third-party
+                services are integrated, and how you can manage or delete
+                your data.
+            </p>
+
+            <div class="summary">
+                <strong>Privacy at a glance</strong>
+                <p>
+                    Your field measurements and saved plot information are
+                    stored locally on your device. We do not operate a
+                    developer server that receives or stores your GPS
+                    measurements. Location access is used while the App is
+                    actively in use, not for background tracking. Google
+                    Maps and Google Play Services may process information
+                    according to their own privacy policies.
+                </p>
+            </div>
+
+            <h2>1. Information Collection and Use</h2>
+
+            <p>
+                The App processes location coordinates and field measurement
+                information to provide its core functionality. We do not
+                collect personal information for storage on our own remote
+                servers through the App.
+            </p>
+
+            <h3>1.1 Location Data and GPS Permissions</h3>
+
+            <p>
+                The App requests foreground location permissions on supported
+                Android devices:
+            </p>
+
+            <ul>
+                <li>
+                    <code>ACCESS_FINE_LOCATION</code> — allows the App to
+                    access precise location information when granted.
+                </li>
+                <li>
+                    <code>ACCESS_COARSE_LOCATION</code> — allows the App to
+                    access approximate location information when granted.
+                </li>
+            </ul>
+
+            <p>Location information is used for the following purposes:</p>
+
+            <ul>
+                <li>Displaying your current position on Google Maps.</li>
+                <li>Marking GPS points along a land or plot boundary.</li>
+                <li>
+                    Calculating polygon area and perimeter in real time
+                    using recorded boundary coordinates.
+                </li>
+                <li>
+                    Saving coordinates associated with field measurements
+                    so you can view your plots later.
+                </li>
+            </ul>
+
+            <p>
+                <strong>Foreground use only:</strong> Location access is
+                intended for use while you actively use the App. The App
+                does not intentionally track your location in the background.
+            </p>
+
+            <p>
+                <strong>Local processing:</strong> GPS coordinates are
+                processed on your device for boundary marking and
+                calculations. Saved measurement coordinates remain in the
+                App's local database and are not uploaded to our developer
+                servers.
+            </p>
+
+            <p>
+                Location access can be denied or changed at any time through
+                Android Settings. Some GPS-based features will not work
+                correctly without the required permission.
+            </p>
+
+            <h3>1.2 Local Data Storage</h3>
+
+            <p>
+                The App uses a local SQLite database managed through Android
+                Room to store information required for field measurement
+                features.
+            </p>
+
+            <p>Depending on how you use the App, locally stored information may include:</p>
+
+            <ul>
+                <li>Plot or field names entered by the user.</li>
+                <li>Latitude and longitude coordinates of boundary markers.</li>
+                <li>Calculated polygon areas and perimeters.</li>
+                <li>Other measurement details needed to display saved plots.</li>
+            </ul>
+
+            <p>
+                This information is retained locally on your device. It is
+                not automatically transmitted to our remote servers or sold
+                to third parties.
+            </p>
+
+            <p>
+                Where database encryption is implemented and enabled,
+                locally stored records are protected using that encryption.
+                Please note that the level of protection also depends on
+                your device security, Android configuration, and whether
+                you export an unencrypted backup.
+            </p>
+
+            <h3>1.3 Storage Permissions and Database Backups</h3>
+
+            <p>
+                On Android versions where applicable, the App may use
+                storage permissions such as
+                <code>READ_EXTERNAL_STORAGE</code> and
+                <code>WRITE_EXTERNAL_STORAGE</code> to support its database
+                backup feature.
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Purpose:</strong> Exporting a backup of your
+                    saved measurement database as a ZIP file.
+                </li>
+                <li>
+                    <strong>Destination:</strong> The Downloads folder on
+                    your device, subject to the Android version and
+                    available file access mechanisms.
+                </li>
+                <li>
+                    <strong>User control:</strong> Backup creation is
+                    initiated by the user.
+                </li>
+                <li>
+                    These permissions are not intended to collect your
+                    personal files for analytics or advertising.
+                </li>
+            </ul>
+
+            <p>
+                The exact storage permissions available and required depend
+                on your Android version. On newer Android versions, the App
+                may use scoped storage or the system file picker instead
+                of legacy storage permissions.
+            </p>
+
+            <p>
+                Exported backup files are outside the App's private storage.
+                Anyone with access to an exported file may be able to read
+                its contents unless the backup itself is encrypted.
+                Keep backup files in a secure location.
+            </p>
+
+            <h2>2. Summary of Data and Permissions</h2>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Data or Permission</th>
+                            <th>Purpose</th>
+                            <th>Handling</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Precise location</td>
+                            <td>GPS boundary marking and accurate positioning.</td>
+                            <td>Processed on the device during active use.</td>
+                        </tr>
+                        <tr>
+                            <td>Approximate location</td>
+                            <td>Approximate positioning when precise access is not granted.</td>
+                            <td>Processed on the device during active use.</td>
+                        </tr>
+                        <tr>
+                            <td>Plot names and coordinates</td>
+                            <td>Saving and reopening field measurements.</td>
+                            <td>Stored in the local Room/SQLite database.</td>
+                        </tr>
+                        <tr>
+                            <td>Calculated areas and perimeters</td>
+                            <td>Displaying and retaining measurement results.</td>
+                            <td>Stored locally on the device.</td>
+                        </tr>
+                        <tr>
+                            <td>External storage access, where applicable</td>
+                            <td>Exporting a database backup ZIP file.</td>
+                            <td>Saved to the user's local Downloads folder.</td>
+                        </tr>
+                        <tr>
+                            <td>Internet access</td>
+                            <td>Loading map tiles and supporting Google services.</td>
+                            <td>Network requests may be made to Google services.</td>
+                        </tr>
+                        <tr>
+                            <td>Network state access, if declared</td>
+                            <td>Checking network connectivity when needed.</td>
+                            <td>Used by the App or its integrated services.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                This table describes the intended functionality. Actual
+                permission declarations depend on the Android version and
+                the permissions included in the published App.
+            </p>
+
+            <h2>3. Third-Party Services</h2>
+
+            <p>
+                The App integrates Google Play Services and the Google Maps
+                SDK to provide map rendering and location-related
+                functionality.
+            </p>
+
+            <p>
+                These services are operated by Google and may process
+                technical information, device information, network
+                information, location-related information, or service
+                diagnostics as necessary to provide their features.
+                Such processing is governed by Google's own policies and
+                service settings.
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Google Privacy Policy:</strong>
+                    <a href="https://policies.google.com/privacy"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        https://policies.google.com/privacy
+                    </a>
+                </li>
+                <li>
+                    <strong>Google Maps Platform Terms:</strong>
+                    <a href="https://maps.google.com/help/terms_maps/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Google Maps Terms
+                    </a>
+                </li>
+            </ul>
+
+            <p>
+                We do not control the independent data practices of these
+                third-party services. Please review their policies for
+                information about their data handling practices.
+            </p>
+
+            <h2>4. Data Sharing and Disclosure</h2>
+
+            <p>
+                We do not sell, rent, or share your saved field measurements
+                with third parties for advertising or marketing purposes.
+                The App does not automatically upload your locally stored
+                plot names, boundary coordinates, calculated areas, or
+                perimeters to our developer servers.
+            </p>
+
+            <p>
+                However, third-party services such as Google Maps and
+                Google Play Services may independently process information
+                when you use their functionality. Network communications
+                necessary to load maps or use these services are subject
+                to the applicable third-party privacy policies.
+            </p>
+
+            <h2>5. Data Security and Retention</h2>
+
+            <p>
+                Your saved measurements remain on your device until you
+                delete them, clear the App's data, uninstall the App, or
+                otherwise remove the relevant local files.
+            </p>
+
+            <p>
+                We recommend keeping your device protected with a screen
+                lock and installing Android security updates. Device loss,
+                unauthorized device access, or insecure exported backups
+                may expose locally stored information.
+            </p>
+
+            <p>
+                No method of electronic storage can be guaranteed to be
+                completely secure. You are responsible for protecting
+                exported backup files and maintaining copies of important
+                measurements.
+            </p>
+
+            <h2>6. Data Deletion and User Control</h2>
+
+            <p>You can control and remove your saved measurement information in the following ways:</p>
+
+            <ul>
+                <li>
+                    <strong>Delete individual measurements:</strong>
+                    Use the relevant saved-data or measurement management
+                    feature inside the App to delete individual plots,
+                    where available.
+                </li>
+                <li>
+                    <strong>Clear App data:</strong>
+                    Open Android Settings, navigate to
+                    Apps → GPS Area Calculator → Storage, and select
+                    Clear storage or Clear data. The exact wording varies
+                    by Android version.
+                </li>
+                <li>
+                    <strong>Remove exported backups:</strong>
+                    If you created ZIP backups, delete them separately
+                    from your Downloads folder or other storage locations.
+                </li>
+            </ul>
+
+            <p>
+                Clearing App data or uninstalling the App may permanently
+                remove saved measurements that have not been backed up.
+                Clearing the App's cache alone may not delete its database.
+            </p>
+
+            <h2>7. Children's Privacy</h2>
+
+            <p>
+                GPS Area Calculator is designed for land measurement,
+                surveying, and related professional or personal uses. It is
+                not intended for children under the age of 13.
+            </p>
+
+            <p>
+                We do not knowingly collect personal information from
+                children under 13 for storage on our developer servers.
+                If you believe a child has provided personal information
+                to us directly, please contact us so that we can review
+                the matter.
+            </p>
+
+            <h2>8. Your Privacy Rights</h2>
+
+            <p>
+                Depending on your location and applicable law, you may have
+                rights regarding personal information associated with you.
+                Since the App's saved field measurements are designed to
+                remain locally on your device, you can generally manage
+                those records directly using the deletion options described
+                above.
+            </p>
+
+            <p>
+                For privacy-related questions or requests concerning
+                information handled by our company, contact us using the
+                details below.
+            </p>
+
+            <h2>9. Changes to This Privacy Policy</h2>
+
+            <p>
+                We may update this Privacy Policy when the App's
+                functionality, third-party integrations, legal requirements,
+                or data practices change.
+            </p>
+
+            <p>
+                Any updated version will be published on this page with a
+                revised "Last Updated" date. We encourage users to review
+                this page periodically.
+            </p>
+
+            <h2>10. Contact Us</h2>
+
+            <p>
+                If you have questions, concerns, or requests regarding this
+                Privacy Policy or the App's data practices, please contact:
+            </p>
+
+            <div class="contact-card">
+                <p>
+                    <strong>Company:</strong><br>
+                    Integrated Geo-Informatics Solutions Pvt Ltd
+                </p>
+
+                <p>
+                    <strong>Email:</strong><br>
+                    <a href="mailto:info@intgeo.in">
+                        info@intgeo.in
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Website:</strong><br>
+                    <a href="https://intgeo.in/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        https://intgeo.in/
+                    </a>
+                </p>
+            </div>
+
+        </article>
+
+    </main>
+
+    <footer class="footer">
+        <p>
+            &copy; <span id="current-year">2026</span>
+            Integrated Geo-Informatics Solutions Pvt Ltd.
+            All rights reserved.
+        </p>
+        <p>GPS Area Calculator — Privacy Policy</p>
+    </footer>
+
+    <script>
+        document.getElementById("current-year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>
